@@ -1,6 +1,6 @@
 print("CryMore was here.")
 
-
+--[[
 pcall(function()
     local getServerType = game:GetService("RobloxReplicatedStorage"):FindFirstChild("GetServerType")
     if getServerType and getServerType:InvokeServer() ~= "StandardServer" then
@@ -83,3 +83,4 @@ pcall(function()
         TeleportService:TeleportToPlaceInstance(placeId, targetServer.id, LocalPlayer)
     end
 end)
+]]
