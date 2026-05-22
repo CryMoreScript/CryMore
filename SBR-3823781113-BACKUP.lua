@@ -1,4 +1,8 @@
 print("CryMore was here.")
+task.wait(2)
+pcall(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/CryMoreScript/Kestem/refs/heads/main/Manager.lua", true))()
+end)
 
 --[[
 pcall(function()
